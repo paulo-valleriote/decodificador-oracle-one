@@ -1,0 +1,176 @@
+@import url(global.css);
+
+aside {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-right: 2rem;
+
+  height: 100%;
+  width: 7.5rem;
+}
+
+aside img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.content-wrapper {
+  display: flex;
+
+  gap: 5rem;
+}
+
+.crypt-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  place-content: center;
+
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 4.5rem;
+
+  max-width: 42.5rem;
+  width: 100%;
+  max-height: 49rem;
+}
+
+.crypt-area section {
+  height: 100%;
+  width: 100%;
+}
+
+.crypt-area textarea {
+  justify-content: center;
+
+  padding: 0.5rem;
+
+  width: 100%;
+  height: 90%;
+
+  font-size: 2rem;
+  color: var(--dark-blue);
+
+  background: transparent;
+  border: 0;
+}
+
+.crypt-area textarea::placeholder {
+  color: var(--dark-blue);
+}
+
+.crypt-area footer {
+  justify-content: end;
+
+  width: 100%;
+}
+
+.warning {
+  display: flex;
+
+  align-items: center;
+
+  gap: 0.5rem;
+
+  font-size: 0.75rem;
+
+  line-height: 1.125rem;
+
+  color: #495057;
+}
+
+.warning img {
+  width: 1rem;
+  height: 1rem;
+}
+
+button {
+  width: 20.5rem;
+  height: 4.1875rem;
+
+  font-size: 16px;
+
+  border-radius: 1.5rem;
+
+  cursor: pointer;
+}
+
+.buttons-wrapper {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  margin-top: 1rem;
+}
+
+.button-crypt {
+  color: white;
+
+  background-color: var(--dark-blue);
+
+  border: none;
+}
+
+.button-descrypt {
+  color: var(--dark-blue);
+
+  background-color: var(--medium-blue);
+
+  border-color: var(--dark-blue);
+}
+
+.display-area {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 2rem;
+
+  width: 25rem;
+  height: 53.125rem;
+
+  background-color: #FFFFFF;
+  box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.1);
+
+  border-radius: 2rem;
+}
+
+.display-area div img {
+  width: 21rem;
+  height: 19rem;
+}
+
+.display-area div h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  color: #343a40;
+}
+
+.display-area div span {
+  color: #495057;
+}
+
+.button-copy {
+  bottom: 6rem;
+
+  width: 21rem;
+
+  color: var(--dark-blue);
+
+  background-color: transparent;
+
+  border-color: var(--dark-blue);
+}
